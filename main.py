@@ -98,7 +98,7 @@ class Env(dict):
 global_env = standard_env()
 
 
-def repl(prompt='lis.py> '):
+def repl(prompt='MSE> '):
     "A prompt-read-eval-print loop."
     while True:
         dval = desugar(parse(input(prompt)))
